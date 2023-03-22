@@ -52,5 +52,6 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "iar.installationPath": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\"
 }

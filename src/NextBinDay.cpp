@@ -9,7 +9,7 @@ BinColour NextBinDay::getBinColour(const BinDays& binDays){
     tm* localTime = localtime(&currentTime);
     
     // 2. Find out which day is next 
-    BinDayInfo* nextBinDay = binDays.at(0);
+    const BinDayInfo* nextBinDay = &binDays.at(0);
     for(auto& binDay : binDays)
     {
         if(binDay.getBinDate() < nextBinDay->getBinDate()) nextBinDay = &binDay;       
